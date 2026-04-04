@@ -1,0 +1,1 @@
+Python sctripts used to generate the results from: "Statistical Study of Betatron and Fermi Electron Acceleration at Dipolarization Fronts" (https://essopenarchive.org/users/1010489/articles/1370613-statistical-study-of-betatron-and-fermi-electron-acceleration-at-dipolarization-fronts).
