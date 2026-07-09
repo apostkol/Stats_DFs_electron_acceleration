@@ -342,7 +342,7 @@ def epoch_analysis(tints, window_ti = 5, scale_with:str = "t_i",
 
 # Load FPI perp/par temperature ratio
         t_perp, t_para, t_ratio = temp_ratio(tint_new, s = "e", lowest_energy = 1e2)
-        temp = np.sqrt(t_perp**2 + t_para**2)
+        temp = (t_para + 2 * t_perp)/3
 # Load FPI electron density
         n_e_avg, _ = load_n_t_4sc(tint_new, s = "e", lowest_energy=1e2)
         # n_e_avg = pyrf.ts_convolve(n_e_avg, kernel = np.ones(6)/6)
